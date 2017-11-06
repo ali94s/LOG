@@ -1,81 +1,45 @@
-ERROR[89866] 2017-11-05 11:36:46 ali-test.c->func->11:thread test error
-ERROR[89866] 2017-11-05 11:36:46 ali-test.c->main->26:this is an error test
-WARN[89866] 2017-11-05 11:36:46 ali-test.c->func->12:thread test warn
-WARN[89866] 2017-11-05 11:36:46 ali-test.c->main->27:this is a warn test
-INFO[89866] 2017-11-05 11:36:46 ali-test.c->func->13:thread test info
-INFO[89866] 2017-11-05 11:36:46 ali-test.c->main->28:this is an info test
-ERROR[89866] 2017-11-05 11:36:48 ali-test.c->main->26:this is an error test
-WARN[89866] 2017-11-05 11:36:48 ali-test.c->main->27:this is a warn test
-INFO[89866] 2017-11-05 11:36:48 ali-test.c->main->28:this is an info test
-ERROR[89866] 2017-11-05 11:36:49 ali-test.c->func->11:thread test error
-WARN[89866] 2017-11-05 11:36:49 ali-test.c->func->12:thread test warn
-INFO[89866] 2017-11-05 11:36:49 ali-test.c->func->13:thread test info
-ERROR[89866] 2017-11-05 11:36:50 ali-test.c->main->26:this is an error test
-WARN[89866] 2017-11-05 11:36:50 ali-test.c->main->27:this is a warn test
-INFO[89866] 2017-11-05 11:36:50 ali-test.c->main->28:this is an info test
-ERROR[89866] 2017-11-05 11:36:52 ali-test.c->func->11:thread test error
-WARN[89866] 2017-11-05 11:36:52 ali-test.c->func->12:thread test warn
-INFO[89866] 2017-11-05 11:36:52 ali-test.c->func->13:thread test info
-ERROR[89866] 2017-11-05 11:36:52 ali-test.c->main->26:this is an error test
-WARN[89866] 2017-11-05 11:36:52 ali-test.c->main->27:this is a warn test
-INFO[89866] 2017-11-05 11:36:52 ali-test.c->main->28:this is an info test
-ERROR[89866] 2017-11-05 11:36:54 ali-test.c->main->26:this is an error test
-WARN[89866] 2017-11-05 11:36:54 ali-test.c->main->27:this is a warn test
-INFO[89866] 2017-11-05 11:36:54 ali-test.c->main->28:this is an info test
-ERROR[89866] 2017-11-05 11:36:55 ali-test.c->func->11:thread test error
-WARN[89866] 2017-11-05 11:36:55 ali-test.c->func->12:thread test warn
-INFO[89866] 2017-11-05 11:36:55 ali-test.c->func->13:thread test info
-ERROR[89866] 2017-11-05 11:36:56 ali-test.c->main->26:this is an error test
-WARN[89866] 2017-11-05 11:36:56 ali-test.c->main->27:this is a warn test
-INFO[89866] 2017-11-05 11:36:56 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:16 ali-test.c->main->26:this is an error test
-ERROR[2815] 2017-11-05 11:41:16 ali-test.c->func->11:thread test error
-WARN[2815] 2017-11-05 11:41:16 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:16 ali-test.c->main->28:this is an info test
-WARN[2815] 2017-11-05 11:41:16 ali-test.c->func->12:thread test warn
-INFO[2815] 2017-11-05 11:41:16 ali-test.c->func->13:thread test info
-ERROR[2815] 2017-11-05 11:41:18 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:18 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:18 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:19 ali-test.c->func->11:thread test error
-WARN[2815] 2017-11-05 11:41:19 ali-test.c->func->12:thread test warn
-INFO[2815] 2017-11-05 11:41:19 ali-test.c->func->13:thread test info
-ERROR[2815] 2017-11-05 11:41:20 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:20 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:20 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:22 ali-test.c->func->11:thread test error
-ERROR[2815] 2017-11-05 11:41:22 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:22 ali-test.c->func->12:thread test warn
-WARN[2815] 2017-11-05 11:41:22 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:22 ali-test.c->func->13:thread test info
-INFO[2815] 2017-11-05 11:41:22 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:24 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:24 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:24 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:25 ali-test.c->func->11:thread test error
-WARN[2815] 2017-11-05 11:41:25 ali-test.c->func->12:thread test warn
-INFO[2815] 2017-11-05 11:41:25 ali-test.c->func->13:thread test info
-ERROR[2815] 2017-11-05 11:41:26 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:26 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:26 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:28 ali-test.c->func->11:thread test error
-WARN[2815] 2017-11-05 11:41:28 ali-test.c->func->12:thread test warn
-INFO[2815] 2017-11-05 11:41:28 ali-test.c->func->13:thread test info
-ERROR[2815] 2017-11-05 11:41:28 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:28 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:28 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:30 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:30 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:30 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:31 ali-test.c->func->11:thread test error
-WARN[2815] 2017-11-05 11:41:31 ali-test.c->func->12:thread test warn
-INFO[2815] 2017-11-05 11:41:31 ali-test.c->func->13:thread test info
-ERROR[2815] 2017-11-05 11:41:32 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:32 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:32 ali-test.c->main->28:this is an info test
-ERROR[2815] 2017-11-05 11:41:34 ali-test.c->func->11:thread test error
-WARN[2815] 2017-11-05 11:41:34 ali-test.c->func->12:thread test warn
-INFO[2815] 2017-11-05 11:41:34 ali-test.c->func->13:thread test info
-ERROR[2815] 2017-11-05 11:41:34 ali-test.c->main->26:this is an error test
-WARN[2815] 2017-11-05 11:41:34 ali-test.c->main->27:this is a warn test
-INFO[2815] 2017-11-05 11:41:34 ali-test.c->main->28:this is an info test
+ERROR[3493] 2017-11-06 01:15:49 ali-test.c->main->26:ERROR thread count =1
+ERROR[3493] 2017-11-06 01:15:49 ali-test.c->func->11:ERROR thread count =1
+WARN[3493] 2017-11-06 01:15:49 ali-test.c->main->27:WARN main count=3
+WARN[3493] 2017-11-06 01:15:49 ali-test.c->func->12:WARN main count=3
+WARN[3493] 2017-11-06 01:15:49 ali-test.c->func->13:INFO main count=5
+WARN[3493] 2017-11-06 01:15:49 ali-test.c->main->28:INFO main count=5
+ERROR[3493] 2017-11-06 01:15:51 ali-test.c->main->26:ERROR main count = 6
+WARN[3493] 2017-11-06 01:15:51 ali-test.c->main->27:WARN main count=7
+WARN[3493] 2017-11-06 01:15:51 ali-test.c->main->28:INFO main count=8
+ERROR[3493] 2017-11-06 01:15:52 ali-test.c->func->11:ERROR thread count =9
+WARN[3493] 2017-11-06 01:15:52 ali-test.c->func->12:WARN thread count = 10
+WARN[3493] 2017-11-06 01:15:52 ali-test.c->func->13:INFO thread count = 11
+ERROR[3493] 2017-11-06 01:15:53 ali-test.c->main->26:ERROR main count = 12
+WARN[3493] 2017-11-06 01:15:53 ali-test.c->main->27:WARN main count=13
+WARN[3493] 2017-11-06 01:15:53 ali-test.c->main->28:INFO main count=14
+ERROR[3493] 2017-11-06 01:15:55 ali-test.c->func->11:ERROR thread count =15
+WARN[3493] 2017-11-06 01:15:55 ali-test.c->func->12:WARN thread count = 16
+WARN[3493] 2017-11-06 01:15:55 ali-test.c->func->13:INFO thread count = 17
+ERROR[3493] 2017-11-06 01:15:55 ali-test.c->main->26:ERROR main count = 18
+WARN[3493] 2017-11-06 01:15:55 ali-test.c->main->27:WARN main count=19
+WARN[3493] 2017-11-06 01:15:55 ali-test.c->main->28:INFO main count=20
+ERROR[3493] 2017-11-06 01:15:57 ali-test.c->main->26:ERROR main count = 21
+WARN[3493] 2017-11-06 01:15:57 ali-test.c->main->27:WARN main count=22
+WARN[3493] 2017-11-06 01:15:57 ali-test.c->main->28:INFO main count=23
+ERROR[3493] 2017-11-06 01:15:58 ali-test.c->func->11:ERROR thread count =24
+WARN[3493] 2017-11-06 01:15:58 ali-test.c->func->12:WARN thread count = 25
+WARN[3493] 2017-11-06 01:15:58 ali-test.c->func->13:INFO thread count = 26
+ERROR[3493] 2017-11-06 01:15:59 ali-test.c->main->26:ERROR main count = 27
+WARN[3493] 2017-11-06 01:15:59 ali-test.c->main->27:WARN main count=28
+WARN[3493] 2017-11-06 01:15:59 ali-test.c->main->28:INFO main count=29
+ERROR[3493] 2017-11-06 01:16:01 ali-test.c->func->11:ERROR thread count =30
+WARN[3493] 2017-11-06 01:16:01 ali-test.c->func->12:WARN thread count = 31
+WARN[3493] 2017-11-06 01:16:01 ali-test.c->func->13:INFO thread count = 32
+ERROR[3493] 2017-11-06 01:16:01 ali-test.c->main->26:ERROR main count = 33
+WARN[3493] 2017-11-06 01:16:01 ali-test.c->main->27:WARN main count=34
+WARN[3493] 2017-11-06 01:16:01 ali-test.c->main->28:INFO main count=35
+ERROR[3493] 2017-11-06 01:16:03 ali-test.c->main->26:ERROR main count = 36
+WARN[3493] 2017-11-06 01:16:03 ali-test.c->main->27:WARN main count=37
+WARN[3493] 2017-11-06 01:16:03 ali-test.c->main->28:INFO main count=38
+ERROR[3493] 2017-11-06 01:16:04 ali-test.c->func->11:ERROR thread count =39
+WARN[3493] 2017-11-06 01:16:04 ali-test.c->func->12:WARN thread count = 40
+WARN[3493] 2017-11-06 01:16:04 ali-test.c->func->13:INFO thread count = 41
+ERROR[3493] 2017-11-06 01:16:05 ali-test.c->main->26:ERROR main count = 42
+WARN[3493] 2017-11-06 01:16:05 ali-test.c->main->27:WARN main count=43
+WARN[3493] 2017-11-06 01:16:05 ali-test.c->main->28:INFO main count=44

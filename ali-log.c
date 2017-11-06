@@ -2,6 +2,7 @@
 
 int g_logSwitch=0;
 int g_logLevel=0;
+char msg[LOG_MAX];
 
 void InitCodeLog()
 {
