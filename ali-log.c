@@ -3,8 +3,15 @@
 int g_logSwitch=0;
 int g_logLevel=0;
 char msg[LOG_MAX];
+pthread_rwlock_t g_logRwlock;
 
 void InitCodeLog()
+{
+    InitLock();
+    InitByConf();
+}
+
+void InitByConf()
 {
     char buffer[BUFF_LEN];
     FILE *fp;
@@ -46,19 +53,23 @@ void GetNowTime(char *buf,const int len)
 
 void WriteLogData(const char *level,const char *file,const char *func,const unsigned int line,const char *desc)
 {
-    FILE *fp;
-    char *nowTime;
-    char timeBuf[50];
-    fp=fopen(LOG_FILE,"a+");
-    if(NULL==fp)
+    if(true == GetLock())
     {
-        perror("open logfile failure");
-        return;
+        FILE *fp;
+        char *nowTime;
+        char timeBuf[50];
+        fp=fopen(LOG_FILE,"a+");
+        if(NULL==fp)
+        {
+            perror("open logfile failure");
+            return;
+        }
+        GetNowTime(timeBuf,50);
+        fprintf(fp,"%s[%lu] %s %s->%s->%d:%s\n",level,getpid(),timeBuf,file,func,line,desc);
+        fflush(fp);
+        fclose(fp);
+        ReleaseLock();
     }
-    GetNowTime(timeBuf,50);
-    fprintf(fp,"%s[%lu] %s %s->%s->%d:%s\n",level,getpid(),timeBuf,file,func,line,desc);
-    fflush(fp);
-    fclose(fp);
 }
 
 void SET_ERROR_LOG(const char *file,const char *func,const unsigned int line,const char *desc)
@@ -98,5 +109,19 @@ void SET_INFO_LOG(const char *file,const char *func,const unsigned int line,cons
 }
 
 
+void InitLock()
+{
+    pthread_rwlock_init(&g_logRwlock,NULL);
+}
 
+bool GetLock()
+{
+    if(pthread_rwlock_trywrlock(&g_logRwlock)==0)
+        return true;
+    return false;
+}
 
+void ReleaseLock()
+{
+    pthread_rwlock_unlock(&g_logRwlock);
+}

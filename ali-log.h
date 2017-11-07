@@ -4,8 +4,9 @@
 #include<time.h>
 #include<sys/types.h>
 #include<unistd.h>
+#include<pthread.h>
 
-
+typedef enum{false,true} bool;
 #define BUFF_LEN 64
 #define LOG_MAX 1024
 #define LOG_SWITCH "log_switch"
@@ -17,8 +18,10 @@
 #define INFO_MASK 4
 
 
+
 extern int g_logSwitch,g_logLevel;
 extern char msg[LOG_MAX];
+extern pthread_rwlock_t g_logRwlock;
 //#define ERROR_LOG(desc) SET_ERROR_LOG(__FILE__,__func__,__LINE__,desc)
 //#define WARN_LOG(desc) SET_WARN_LOG(__FILE__,__func__,__LINE__,desc)
 //#define INFO_LOG(desc) SET_INFO_LOG(__FILE__,__func__,__LINE__,desc)
@@ -36,10 +39,11 @@ extern char msg[LOG_MAX];
 #define INFO_LOG(...) \
     memset(msg,0,sizeof(msg));\
     sprintf(msg,__VA_ARGS__);\
-    SET_WARN_LOG(__FILE__,__func__,__LINE__,msg);
+    SET_INFO_LOG(__FILE__,__func__,__LINE__,msg);
 
 
 void InitCodeLog();
+void InitByConf();
 void WriteLogData(const char *level,const char *file,const char *func,const unsigned int line,const char *desc);
 void GetNowTime(char *buf,const int len);
 
@@ -48,5 +52,7 @@ void SET_ERROR_LOG(const char *file,const char *func,const unsigned int line,con
 void SET_WARN_LOG(const char *file,const char *func,const unsigned int line,const char *desc);
 void SET_INFO_LOG(const char *file,const char *func,const unsigned int line,const char *desc);
 
-
+void InitLock();
+bool GetLock();
+void ReleaseLock();
 
